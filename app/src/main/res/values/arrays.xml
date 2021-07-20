@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="belgi_turi_array">
+        <item>Ogohlantiruvchi</item>
+        <item>Imtiyozli</item>
+        <item>Ta\'qiqlovchi</item>
+        <item>Buyuruvchi</item>
+    </string-array>
+</resources>

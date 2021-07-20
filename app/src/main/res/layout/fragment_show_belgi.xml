@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowBelgiFragment"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp">
+
+  <ImageView
+      android:layout_width="150dp"
+      android:layout_height="150dp"
+      android:id="@+id/image_show"
+      android:src="@drawable/belgi"
+      android:layout_margin="15dp"
+      />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_show_nomi"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:text="@string/app_name"
+        android:gravity="center"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txt_about_show"
+            android:text="@string/app_name"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            />
+    </ScrollView>
+
+</LinearLayout>
